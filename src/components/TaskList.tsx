@@ -30,6 +30,7 @@ export function TaskList() {
       newTasks.push(newTask);
 
       setTasks(newTasks);
+      setNewTaskTitle('');
     }
   }
 
